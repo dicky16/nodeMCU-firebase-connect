@@ -19,7 +19,7 @@ void setup() {
   pinMode(lb, OUTPUT);
   
   konekWifi();
-  Firebase.begin("https://slim-b5937.firebaseio.com/", "oGKxrrGdOSOk4QDNM4Rc4bphvdC2YLwI2Cyjcrle");
+  Firebase.begin("isi dengan host firebase kalian, contoh : https://slim-b5937.firebaseio.com/", "isi dengan key firebase kalian");
   //Firebase.begin("firebase host", "firebase auth database");
 }
  
